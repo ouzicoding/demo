@@ -1,0 +1,9 @@
+{
+    "name": "demo/demo",
+    "type": "project",
+    "description": "no description",
+    "require": {
+        "stripe/stripe-php": "^7.75",
+        "ext-json": "^1.7"
+    }
+}
