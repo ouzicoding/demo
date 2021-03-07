@@ -8,7 +8,7 @@ Stripe::setApiKey('sk_test_51IRXGkJze1kcJ9654BaktLfKCLXJoy6rqybKysznoqRF25rnVuIH
 
 header('Content-Type: application/json');
 
-$YOUR_DOMAIN = 'http://demo.test';
+$YOUR_DOMAIN = 'http://127.0.0.1:4242';
 
 $checkout_session = Session::create([
     'payment_method_types' => ['card'],
